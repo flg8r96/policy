@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexa Food Log</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            font-size: 1.2em;
+            color: #7f8c8d;
+        }
+        .content {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .privacy-link {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .privacy-link:hover {
+            background: #2980b9;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .feature h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">🍽️ Alexa Food Log</div>
+        <div class="tagline">Track your nutrition with voice commands</div>
+    </div>
+
+    <div class="content">
+        <h2>Welcome to Alexa Food Log</h2>
+        <p>An intelligent Alexa skill that helps you track your daily nutrition through simple voice commands. Log your meals, track calories, protein, carbs, and fat, and stay on top of your health goals.</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🎯 Easy Logging</h3>
+                <p>Simply say "I ate two eggs and a banana" and Alexa will log it automatically.</p>
+            </div>
+            <div class="feature">
+                <h3>📊 Smart Tracking</h3>
+                <p>Get real-time nutrition totals and see how much you have left to reach your daily goals.</p>
+            </div>
+            <div class="feature">
+                <h3>🔒 Privacy First</h3>
+                <p>Your data is stored securely and never shared with third parties.</p>
+            </div>
+        </div>
+
+        <p><strong>Privacy Policy:</strong> <a href="privacy-policy.html" class="privacy-link">View Privacy Policy</a></p>
+    </div>
+
+    <div class="content">
+        <h3>How to Use</h3>
+        <p>Enable the Alexa Food Log skill in your Alexa app, then start logging:</p>
+        <ul>
+            <li>"Alexa, open Food Logger"</li>
+            <li>"I ate two eggs and a banana"</li>
+            <li>"What's my nutrition status?"</li>
+        </ul>
+    </div>
+</body>
+</html>
