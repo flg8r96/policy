@@ -10,8 +10,8 @@ This repository contains the public-facing website and privacy policy for the Al
 
 ## URLs
 
-- **Main Site:** https://[username].github.io/foodlogger-public/
-- **Privacy Policy:** https://[username].github.io/foodlogger-public/privacy-policy.html
+- **Main Site:** https://flg8r96.github.io/policy/
+- **Privacy Policy:** https://flg8r96.github.io/policy/privacy-policy.html
 
 ## Purpose
 
@@ -20,3 +20,7 @@ This repository is separate from the main Alexa skill code to keep the skill imp
 ## License
 
 This public site content is provided as-is for informational purposes.
+
+## Status
+
+GitHub Pages deployment in progress...
